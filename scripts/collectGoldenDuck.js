@@ -110,6 +110,7 @@ function checkTimeToGoldenDuck(token) {
 }
 
 async function collectGoldenDuck(token) {
+  console.log(123123123);
   accessToken = token;
 
   if (!run) {
