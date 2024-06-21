@@ -110,9 +110,7 @@ function checkTimeToGoldenDuck(token) {
 }
 
 async function collectGoldenDuck(token) {
-  console.log("111111111111");
   accessToken = token;
-  console.log("collectGoldenDuck ~ accessToken:", accessToken);
 
   if (!run) {
     wallets = await getBalance(accessToken, ua);
@@ -123,7 +121,6 @@ async function collectGoldenDuck(token) {
     timerInstance.start();
     run = true;
   }
-  console.log("222222222222");
 
   console.log("[ ONLY GOLDEN DUCK MODE ]");
   console.log();
