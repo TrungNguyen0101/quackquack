@@ -110,7 +110,6 @@ function checkTimeToGoldenDuck(token) {
 }
 
 async function collectGoldenDuck(token) {
-  console.log(123123123);
   accessToken = token;
 
   if (!run) {
@@ -142,7 +141,6 @@ async function collectGoldenDuck(token) {
       2
     )} PET 🐸 ]`
   );
-  console.log("33333333333333");
 
   console.log();
 
